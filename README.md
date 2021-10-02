@@ -1,2 +1,3 @@
-# Recriando-NetFlix
-A BruceFlix é um clone da NETFLIX
+# RECRIANDO A PAGINA DA NETFLIX
+para BruceFLIX, e uma plataforma que voce pode assistir fimes ditreto da youtuber...
+#Visualização no Youtuber em construção com os links

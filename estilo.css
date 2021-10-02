@@ -1,0 +1,104 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 15px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10PX;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+/* arrumando a aparencia dos filmes  */
+
+.nav-bar { /* mudando a font dos indesces */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50),rgba(0,0,0,.50)100%), url('img/bruce-lee.jpg');
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.filme-principal .descricao {
+    margin-bottom: 70px;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.titulos {
+    margin-top: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;    
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.filme-principal .conteiner {
+    width: 40%;
+    text-align: justify;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
